@@ -1,0 +1,30 @@
+/* Applies to all elements in the page */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Applies to the body of the page */
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06283D;
+}
+
+/* Applies to the main container */
+.container{
+    position: relative;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    padding: 30px 30px;
+    overflow: hidden;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.6s ease-out;
+}
