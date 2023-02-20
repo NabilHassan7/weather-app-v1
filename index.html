@@ -8,11 +8,61 @@
     <!-- Linking the css style sheet -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- importing google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
     <!-- Title of the website -->
     <title>Weather App</title>
 </head>
 <body>
     <h1>Weather App</h1>
+
+    <!-- main container -->
+    <div class="container">
+
+        <!-- Search box -->
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter the name of the city">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <!-- Error 404 popup -->
+        <div class="error-page">
+            <img src="" alt="error-image">
+            <p>Error 404. Unexpected error occured</p>
+        </div>
+
+        <!-- Weather display window -->
+        <div class="weather-primary">
+            <img src="" alt="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <!-- Weather detail display window -->
+        <div class="weather-secondary">
+            <!-- humidity display -->
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <!-- wind speed display -->
+            <div class="humidity">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Importing the font awesome kit -->
     <script src="https://kit.fontawesome.com/215a25c64e.js" crossorigin="anonymous"></script>
