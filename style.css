@@ -157,3 +157,29 @@ body{
     font-size: 14px;
     font-weight: 500;
 }
+
+/* Applies to the error page popup */
+.error-page{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    scale: 0;
+    opacity: 0;
+    display: none;
+}
+
+.error-page img{
+    width: 70%;
+}
+
+.error-page p{
+    color: #06283D;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.weather-primary, .weather-secondary{
+    scale: 0;
+    opacity: 0;
+}
