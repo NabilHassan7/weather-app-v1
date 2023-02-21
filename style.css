@@ -28,3 +28,57 @@ body{
     font-family: 'Roboto', sans-serif;
     transition: 0.6s ease-out;
 }
+
+/* Applies to the search bar */
+
+/* Main search bar properties */
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Input text of the search bar */
+.search-box input{
+    color: #06283D;
+    width: 80%;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 32px;
+}
+
+/* Changing the placeholder */
+.search-box input::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+    color: #06283D;
+    text-transform: capitalize;
+}
+
+/* Applies to the search button */
+.search-box button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color: #06283D;
+    background-color: #dff6ff;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: 0.4s ease;
+}
+
+/* Hover properties */
+.search-box button:hover{
+    color: #ffffff;
+    background-color: #06283D;
+}
+
+/* Setting the position of the icons */
+.search-box i{
+    position: absolute;
+    color: #06283D;
+    font-size: 28px;
+}
