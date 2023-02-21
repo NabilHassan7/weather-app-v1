@@ -1,3 +1,6 @@
+//
+import config from "./config.js";
+
 // Declaring constants
 const container = document.querySelector('.container');
 const searchButton = document.querySelector('.search-box button');
@@ -8,7 +11,7 @@ const errorPage = document.querySelector('.error-page');
 // Search function on button click
 searchButton.addEventListener('click', () =>{
     // APIKey
-    const APIKey = 'dummy-value';
+    const APIKey = config.SECRET_KEY;
     // Getting City name input from user
     const cityName = document.querySelector('search-box input').value;
 
@@ -17,3 +20,4 @@ searchButton.addEventListener('click', () =>{
         return;
     }
 })
+
