@@ -183,3 +183,16 @@ body{
     scale: 0;
     opacity: 0;
 }
+
+/* Simple animation to fade in effect */
+.fadeIn{
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
